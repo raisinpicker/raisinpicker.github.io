@@ -13,9 +13,9 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#37474f">
 <meta name="theme-color" content="#37474f">
 
-    <!-- CSS  -->
-    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
-    <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
+<!-- CSS  -->
+<link href="min/plugin-min.css" type="text/css" rel="stylesheet">
+<link href="min/custom-min.css" type="text/css" rel="stylesheet" >
 </head>
 <body id="top" class="scrollspy">
 
@@ -35,14 +35,14 @@
             <div class="nav-wrapper">
             <a href="#" id="logo-container" class="brand-logo">Raisin Picker</a>
                 <ul class="right hide-on-med-and-down">
+                    <li><a href="#features">Features</a></li>                
                     <li><a href="#intro">Screenshots</a></li>
-                    <li><a href="#features">Features</a></li>
                     <li><a href="#getstarted">Get Started</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#features">Features</a></li>                
                     <li><a href="#intro">Screenshots</a></li>
-                    <li><a href="#features">Features</a></li>
                     <li><a href="#getstarted">Get Started</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -52,7 +52,12 @@
     </nav>
 </div>
 
-<!--Hero-->
+<!--Parallax -->
+<div class="parallax-container">
+    <div class="parallax"><img src="img/parallax6.jpg"></div>
+</div>
+
+<!--Hero
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
         <h1 class="text_h header cd-headline letters type">
@@ -65,73 +70,46 @@
         </h1>
     </div>
 </div>
+-->
 
 <!--Intro and service-->
 <div class="section scrollspy">
     <div class="container">
         <div class="row">
+            <div class="col s12">
+                <h2 class="header text_h2"> Raisin Picker is a <span class="span_h2"> personal knowledge management tool</span>.</h2>
+                <h2 class="header text_h2">Made for <span class="span_h2"> knowledge workers</span>. </h2>
+                <h2 class="header text_h2">Built with <span class="span_h2">Drupal 8.x</span>. </h2>
+                <p><button class="btn-large waves-effect waves-light" href="https://github.com/raisinpicker/profile-d8">Raisin Picker Drupal 8 installation profile</button><br>(development version, not yet working/installable)</p>
+            </div>
             <div  class="col s12 m4 l4">
                 <div class="promo promo-example">
                     <h5 class="promo-caption">A knowledge worker's tool kit</h5>
-                    <p class="lead">There is so much data, so much information to process. News, RSS feeds, search results, papers, books. Raisin Picker helps <a href="https://en.wikipedia.org/wiki/Knowledge_worker">knowledge workers</a> to manage informaton that is relevant, to retrieve what is needed, to find what you are looking for.</p>
+                    <p class="lead">There is so much data, so much information to process. News, RSS feeds, search results, papers, books.</p>
+                    <p> Raisin Picker helps <a href="https://en.wikipedia.org/wiki/Knowledge_worker">knowledge workers</a> to manage informaton that is relevant, to retrieve what is needed, to find what you are looking for.</p>
                 </div>
             </div>
             <div class="col s12 m4 l4">
                 <div class="promo promo-example">
                     <h5 class="promo-caption">Structure & organization</h5>
-                    <p>Raisin Picker implements several concepts to organize and structure your knowledge. Use (tree-structured) tags to categorize your content. Rate content on a numeric scale to indicate its relevance. Use relations to connect nodes.</p>
+                    <p>Raisin Picker implements several concepts to organize and structure your knowledge. </p>
+                    <p>Use (tree-structured) tags to categorize your content. Rate content on a numeric scale to indicate its relevance. Use relations to connect nodes.</p>
                 </div>
             </div>
             <div class="col s12 m4 l4">
                 <div class="promo promo-example">   
                     <h5 class="promo-caption">On the shoulders of giants</h5>
-                    <p>Most concepts applied are based on research and inspired by best practices: <a href="https://de.wikipedia.org/wiki/Zettelkasten">Zettelkasten (german)</a> of Niklas Luhman, <a href="https://en.wikipedia.org/wiki/Memex">memex</a>, <a href="https://en.wikipedia.org/wiki/Personal_wiki">personal wiki</a>, <a href="https://en.wikipedia.org/wiki/Commonplace_book">commonplace book</a>, <a href="https://en.wikipedia.org/wiki/Knowledge_base">knowledge base</a>, <a href="https://en.wikipedia.org/wiki/Concept_map">concept maps</a> and <a href="https://en.wikipedia.org/wiki/Spaced_repetition">spaced repetition</a>.</p>
+                    <p>Most concepts applied are based on research and inspired by best practices:</p>
+                    <p><a href="https://de.wikipedia.org/wiki/Zettelkasten">Zettelkasten (german)</a> of Niklas Luhman, <a href="https://en.wikipedia.org/wiki/Memex">memex</a>, <a href="https://en.wikipedia.org/wiki/Personal_wiki">personal wiki</a>, <a href="https://en.wikipedia.org/wiki/Commonplace_book">commonplace book</a>, <a href="https://en.wikipedia.org/wiki/Knowledge_base">knowledge base</a>, <a href="https://en.wikipedia.org/wiki/Concept_map">concept maps</a> and <a href="https://en.wikipedia.org/wiki/Spaced_repetition">spaced repetition</a>.</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<!--Parallax
+<!--Parallax -->
 <div class="parallax-container">
     <div class="parallax"><img src="img/parallax5.jpg"></div>
-</div>
--->
-
-<!--Screenshots-->
-<div id="intro" class="section scrollspy">
-    <div class="container">
-        <div class="row">
-            <div  class="col s12">
-                <h2 class="header text_b">Screenshots</h2>
-            </div>
-            <div  class="col s12 m4 l4">
-                Dashboard
-                <img class="materialboxed card" data-caption="Dashboard" width="250" src="img/dashboard2.PNG">
-            </div>
-            <div class="col s12 m4 l4">
-                Node view
-                <img class="materialboxed card" data-caption="Node view" width="250" src="img/nodeview.PNG">
-            </div>
-            <div class="col s12 m4 l4">  
-                Node edit (WYSIWYG editor)
-                <img class="materialboxed card" data-caption="Node edit" width="250" src="img/nodeedit.PNG">
-            </div>
-            <div class="col s12 m4 l4">  
-                Graph
-                <img class="materialboxed card" data-caption="Graph" width="250" src="img/graph.PNG">
-            </div>
-            <div class="col s12 m4 l4">  
-                Statistics
-                <img class="materialboxed card" data-caption="Statistics" width="250" src="img/statistics.PNG">
-            </div>
-            <div class="col s12 m4 l4">  
-                Bulk Ops
-                <img class="materialboxed card" data-caption="Bulk operations" width="250" src="img/bulk.PNG">
-            </div>
-
-        </div>
-    </div>
 </div>
      
     
@@ -258,11 +236,52 @@
     </div>
 </div>
 
-<!--Parallax
+<!--Parallax -->
 <div class="parallax-container">
     <div class="parallax"><img src="img/parallax6.jpg"></div>
 </div>
--->
+
+
+<!--Screenshots-->
+<div id="intro" class="section scrollspy">
+    <div class="container">
+        <div class="row">
+            <div  class="col s12">
+                <h2 class="header text_b">Screenshots</h2>
+            </div>
+            <div  class="col s12 m4 l4">
+                Dashboard
+                <img class="materialboxed card" data-caption="Dashboard" width="250" src="img/dashboard2.PNG">
+            </div>
+            <div class="col s12 m4 l4">
+                Node view
+                <img class="materialboxed card" data-caption="Node view" width="250" src="img/nodeview.PNG">
+            </div>
+            <div class="col s12 m4 l4">  
+                Node edit (WYSIWYG editor)
+                <img class="materialboxed card" data-caption="Node edit" width="250" src="img/nodeedit.PNG">
+            </div>
+            <div class="col s12 m4 l4">  
+                Graph
+                <img class="materialboxed card" data-caption="Graph" width="250" src="img/graph.PNG">
+            </div>
+            <div class="col s12 m4 l4">  
+                Statistics
+                <img class="materialboxed card" data-caption="Statistics" width="250" src="img/statistics.PNG">
+            </div>
+            <div class="col s12 m4 l4">  
+                Bulk Ops
+                <img class="materialboxed card" data-caption="Bulk operations" width="250" src="img/bulk.PNG">
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--Parallax -->
+<div class="parallax-container">
+    <div class="parallax"><img src="img/parallax6.jpg"></div>
+</div>
 
 <!--Get Startet -->
 <div class="section scrollspy" id="getstarted">
@@ -271,14 +290,10 @@
         <div class="row">
             <div class="col m4 s12">
                 <h5>Download</h5>
-                <p>Raisin Picker is a Drupal 7.x installation profile. Currentyl, it is not yet available.</p>
-                <p><button class="btn-large waves-effect waves-light" disabled href="https://github.com/simonbuechi/raisinpicker">Download (inactive)</button></p>
-                <p><button class="btn-large waves-effect waves-light" disabled href="">View Demo (inactive)</button></p>
+                <p>Raisin Picker Drupal 8 installation profile. Development version, not yet working/installable</p>
+                <p><button class="btn-large waves-effect waves-light" href="https://github.com/raisinpicker/profile-d8">Github</button></p>
+                <p><button class="btn waves-effect waves-light" disabled href="">Demo (inactive)</button></p>
             
-            </div>
-            <div class="col m4 s12">
-                <h5>Request a demo</h5>
-                <p>Please fill out the contact form.</p>
             </div>
             <div class="col m4 s12">
                 <h5>Requirements</h5>     
@@ -289,24 +304,30 @@
                 Apache Solr (for advanced and fast search): <a href="https://lucene.apache.org/solr/6_3_0/SYSTEM_REQUIREMENTS.html">see here</a><br>
 				Cache service: Memcache, <a href="https://redis.io/documentation">Redis</a> or other.
 				</p>
-                
-            </div>            
+            </div>    
+            <div class="col m4 s12">
+                <h5>Learn more</h5>
+                <p>Presentation at Drupal Mountain Camp, Davos, Jan 2017</p>
+                <p><button class="btn waves-effect waves-light" href="https://drive.google.com/open?id=1uy9vAx32ZU18gIUaGrMj2IS3YHIyPufVwte_jjiYOjc">Go to presentation</button></p>
+                <p>Presentation at Drupal Business, Frankfurt, May 2017</p>
+                <p><button class="btn waves-effect waves-light" href="https://drive.google.com/open?id=1qZcTyTPUgxZmJPOXWnKWKu5eYas7GJeRWQJ2LX6rZsE">Go to presentation</button></p>
+            </div>        
         </div>
     </div>
 </div>
     
-<!--Parallax
+<!--Parallax -->
 <div class="parallax-container">
     <div class="parallax"><img src="img/parallax7.jpg"></div>
 </div>
--->
+
 
 <!--Contact -->
 <div class="section scrollspy" id="contact">
     <div class="container">
         <h2 class="header text_b">Contact</h2>
         <div class="row">
-            <div class="col m8 s12">
+            <div class="col m12 s12">
                 <div class="card">
                 <div class="card-content">
                 <form action="https://formspree.io/simon.buechi@gmail.com" method="POST">
@@ -336,14 +357,6 @@
                 </div>
                 </div>
             </div>
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-content">
-                        <p>Created by Simon Buechi</p>
-                        <p><a href="http://buechi.name">Personal website</a></p>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
@@ -353,7 +366,7 @@
     <div class="container">  
         <div class="row">
             <div class="col s12">
-                <p class="white-text">Copyright 2016 Simon Buechi</p>
+                <p class="white-text">Copyright 2016 <a href="http://buechi.name">Simon Buechi</a></p>
             </div>
         </div>
     </div>
