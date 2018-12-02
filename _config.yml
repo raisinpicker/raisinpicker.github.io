@@ -1,0 +1,16 @@
+title: Raisin Picker
+description: Knowledge management with Drupal 8.x
+logo: logo.png
+show_downloads: true
+repository_url: false
+zip_url: false
+demo_url: false
+google_analytics: 1234
+theme: jekyll-theme-cayman
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-sitemap
+ - jekyll-avatar
+ - jekyll-mentions
+ - jekyll-include-cache
