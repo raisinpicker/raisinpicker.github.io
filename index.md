@@ -1,7 +1,7 @@
-
-## About
-
 <div class="row">
+  <div class="col-12">  
+    <h2>About</h2>
+  </div>
   <div class="col-4">  
     <p><strong>A knowledge worker's tool kit</strong></p>
     <p>There is so much data, so much information to process. News, RSS feeds, search results, papers, books. Raisin Picker helps knowledge workers to manage informaton that is relevant, to retrieve what is needed, to find what you are looking for.</p>
@@ -16,11 +16,12 @@
   </div>
 </div>
   
-***
-
-## Features
+<hr>
 
 <div class="row">
+  <div class="col-12">  
+  <h2>Features</h2>
+  </div>
     <div class="col-6">
         <p><strong>Usability</strong><br>
         Intuitive, responsive design using the Material Design Framework. Readable URLs. Create and edit content with a WYSIWYG editor (CKeditor). Colored icons representing rating and content types.</p>
@@ -61,27 +62,45 @@
     </div>   
 </div>
 
-***
+<hr>
 
-## Get started
+<div class="row">
+  <div class="col-12">  
+    <h2>Get Started</h2>
+  </div>
+  <div class="col-12">
+    <p>The easiest way is by using composer:</p>
+    <code>composer create-project raisinpicker/raisinpicker-project:8.x-dev raisinpicker</code>
+    <p>Alternatively download the raisinpicker profile.</p>
+  </div>
+</div>
 
-The easiest way is by using composer:
-```
-composer create-project raisinpicker/raisinpicker-project:8.x-dev raisinpicker
-```
-Alternatively download the raisinpicker profile.
+<hr>
 
-***
+<div class="row">
+  <div class="col-12">  
+    <h2>Resources</h2>
+  </div>
+  <div class="col-12">
+    <ul>
+      <li>Presentation 1</li>
+      <li>Presentation 2</li>
+    </ul>
+  </div>
+</div>
 
-## Resources
 
-* Presentation 1
-* Presentation 2
+<hr>
 
-***
+<div class="row">
+  <div class="col-12">  
+    <h2>Contact</h2>
+  </div>
+  <div class="col-12">
+    <p>Find my contact details on my Github profile: <br>
+      <a href="https://github.com/simonbuechi">{% avatar simonbuechi size=50 %} Simon Buechi</a>.
+    </p>
+  </div>
+</div>
 
-## Contact
-
-Find my contact details on my Github profile:
-
-<a href="https://github.com/simonbuechi">{% avatar simonbuechi size=50 %} Simon Buechi</a>.
+<hr>
