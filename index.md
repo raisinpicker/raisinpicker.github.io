@@ -70,7 +70,7 @@
   </div>
   <div class="col-12">
     <p>The easiest way is by using composer:</p>
-    <code>composer create-project raisinpicker/raisinpicker-project:8.x-dev raisinpicker</code>
+    <p><code>composer create-project raisinpicker/raisinpicker-project:8.x-dev raisinpicker</code></p>
     <p>Alternatively download the raisinpicker profile.</p>
   </div>
 </div>
@@ -89,7 +89,6 @@
   </div>
 </div>
 
-
 <hr>
 
 <div class="row">
@@ -98,9 +97,7 @@
   </div>
   <div class="col-12">
     <p>Find my contact details on my Github profile: <br>
-      <a href="https://github.com/simonbuechi">{% avatar simonbuechi size=50 %} Simon Buechi</a>.
+      <a href="https://github.com/simonbuechi">{% avatar simonbuechi size=50 %}</a>.
     </p>
   </div>
 </div>
-
-<hr>
